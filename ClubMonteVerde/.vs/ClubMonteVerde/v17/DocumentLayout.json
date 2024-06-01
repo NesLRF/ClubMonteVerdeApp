@@ -5,6 +5,38 @@
     {
       "AbsoluteMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|c:\\users\\nesto\\onedrive\\escritorio\\proyectos\\winform-projects\\clubmonteverdeapp\\clubmonteverde\\views\\entrada\\scannqr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|solutionrelative:clubmonteverde\\views\\entrada\\scannqr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|c:\\users\\nesto\\onedrive\\escritorio\\proyectos\\winform-projects\\clubmonteverdeapp\\clubmonteverde\\views\\entrada\\scannqr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|solutionrelative:clubmonteverde\\views\\entrada\\scannqr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|c:\\users\\nesto\\onedrive\\escritorio\\proyectos\\winform-projects\\clubmonteverdeapp\\clubmonteverde\\presenters\\accesspresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|solutionrelative:clubmonteverde\\presenters\\accesspresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|c:\\users\\nesto\\onedrive\\escritorio\\proyectos\\winform-projects\\clubmonteverdeapp\\clubmonteverde\\repository\\entrada\\entradarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|solutionrelative:clubmonteverde\\repository\\entrada\\entradarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|c:\\users\\nesto\\onedrive\\escritorio\\proyectos\\winform-projects\\clubmonteverdeapp\\clubmonteverde\\views\\entrada\\iscannqr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|solutionrelative:clubmonteverde\\views\\entrada\\iscannqr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|c:\\users\\nesto\\onedrive\\escritorio\\proyectos\\winform-projects\\clubmonteverdeapp\\clubmonteverde\\repository\\entrada\\entradacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|solutionrelative:clubmonteverde\\repository\\entrada\\entradacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|c:\\users\\nesto\\onedrive\\escritorio\\proyectos\\winform-projects\\clubmonteverdeapp\\clubmonteverde\\models\\entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|solutionrelative:clubmonteverde\\models\\entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|c:\\users\\nesto\\onedrive\\escritorio\\proyectos\\winform-projects\\clubmonteverdeapp\\clubmonteverde\\models\\membresiafamiliar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|solutionrelative:clubmonteverde\\models\\membresiafamiliar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|c:\\users\\nesto\\onedrive\\escritorio\\proyectos\\winform-projects\\clubmonteverdeapp\\clubmonteverde\\models\\estatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC9AC87C-E8A3-4187-997E-4BAB6C26D7DE}|ClubMonteVerde\\ClubMonteVerde.csproj|solutionrelative:clubmonteverde\\models\\estatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +46,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1866,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScannQR.cs",
+              "DocumentMoniker": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Views\\Entrada\\ScannQR.cs",
+              "RelativeDocumentMoniker": "ClubMonteVerde\\Views\\Entrada\\ScannQR.cs",
+              "ToolTip": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Views\\Entrada\\ScannQR.cs",
+              "RelativeToolTip": "ClubMonteVerde\\Views\\Entrada\\ScannQR.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAewFYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T21:38:00.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EntradaContext.cs",
+              "DocumentMoniker": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Repository\\Entrada\\EntradaContext.cs",
+              "RelativeDocumentMoniker": "ClubMonteVerde\\Repository\\Entrada\\EntradaContext.cs",
+              "ToolTip": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Repository\\Entrada\\EntradaContext.cs",
+              "RelativeToolTip": "ClubMonteVerde\\Repository\\Entrada\\EntradaContext.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAqwEYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T21:16:27.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MembresiaFamiliar.cs",
+              "DocumentMoniker": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Models\\MembresiaFamiliar.cs",
+              "RelativeDocumentMoniker": "ClubMonteVerde\\Models\\MembresiaFamiliar.cs",
+              "ToolTip": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Models\\MembresiaFamiliar.cs",
+              "RelativeToolTip": "ClubMonteVerde\\Models\\MembresiaFamiliar.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T20:37:19.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Estatus.cs",
+              "DocumentMoniker": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Models\\Estatus.cs",
+              "RelativeDocumentMoniker": "ClubMonteVerde\\Models\\Estatus.cs",
+              "ToolTip": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Models\\Estatus.cs",
+              "RelativeToolTip": "ClubMonteVerde\\Models\\Estatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T21:02:39.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Entrada.cs",
+              "DocumentMoniker": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Models\\Entrada.cs",
+              "RelativeDocumentMoniker": "ClubMonteVerde\\Models\\Entrada.cs",
+              "ToolTip": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Models\\Entrada.cs",
+              "RelativeToolTip": "ClubMonteVerde\\Models\\Entrada.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T21:02:32.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EntradaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Repository\\Entrada\\EntradaRepository.cs",
+              "RelativeDocumentMoniker": "ClubMonteVerde\\Repository\\Entrada\\EntradaRepository.cs",
+              "ToolTip": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Repository\\Entrada\\EntradaRepository.cs",
+              "RelativeToolTip": "ClubMonteVerde\\Repository\\Entrada\\EntradaRepository.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAgwE8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T20:35:10.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccessPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Presenters\\AccessPresenter.cs",
+              "RelativeDocumentMoniker": "ClubMonteVerde\\Presenters\\AccessPresenter.cs",
+              "ToolTip": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Presenters\\AccessPresenter.cs",
+              "RelativeToolTip": "ClubMonteVerde\\Presenters\\AccessPresenter.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowDwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T20:31:49.736Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -29,8 +152,21 @@
               "ToolTip": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Views\\Entrada\\ScannQR.cs [Dise\u00F1o]",
               "RelativeToolTip": "ClubMonteVerde\\Views\\Entrada\\ScannQR.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T20:28:09.964Z",
+              "WhenOpened": "2024-06-01T20:29:32.05Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IScannQR.cs",
+              "DocumentMoniker": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Views\\Entrada\\IScannQR.cs",
+              "RelativeDocumentMoniker": "ClubMonteVerde\\Views\\Entrada\\IScannQR.cs",
+              "ToolTip": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\Views\\Entrada\\IScannQR.cs",
+              "RelativeToolTip": "ClubMonteVerde\\Views\\Entrada\\IScannQR.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T21:43:01.75Z",
+              "EditorCaption": ""
             }
           ]
         },

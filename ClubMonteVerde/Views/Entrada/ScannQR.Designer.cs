@@ -46,6 +46,12 @@
             lblScann = new Label();
             txtScann = new DevExpress.XtraEditors.TextEdit();
             panelFill = new Panel();
+            lbl1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            lblUserNombre = new Label();
+            lblUserGrado = new Label();
+            lblUserEstatus = new Label();
             ((System.ComponentModel.ISupportInitialize)gridView2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)gridControl1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)showMembershipDataBindingSource).BeginInit();
@@ -136,6 +142,12 @@
             // 
             // panelTop
             // 
+            panelTop.Controls.Add(lblUserEstatus);
+            panelTop.Controls.Add(lblUserGrado);
+            panelTop.Controls.Add(lblUserNombre);
+            panelTop.Controls.Add(label3);
+            panelTop.Controls.Add(label2);
+            panelTop.Controls.Add(lbl1);
             panelTop.Controls.Add(btnSearch);
             panelTop.Controls.Add(lblScann);
             panelTop.Controls.Add(txtScann);
@@ -152,7 +164,7 @@
             btnSearch.Name = "btnSearch";
             btnSearch.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] { new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph) });
             btnSearch.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            btnSearch.Size = new Size(67, 28);
+            btnSearch.Size = new Size(67, 20);
             btnSearch.TabIndex = 2;
             // 
             // lblScann
@@ -169,7 +181,7 @@
             // 
             txtScann.Location = new Point(41, 44);
             txtScann.Name = "txtScann";
-            txtScann.Size = new Size(162, 28);
+            txtScann.Size = new Size(162, 20);
             txtScann.TabIndex = 0;
             // 
             // panelFill
@@ -180,6 +192,63 @@
             panelFill.Name = "panelFill";
             panelFill.Size = new Size(921, 376);
             panelFill.TabIndex = 1;
+            // 
+            // lbl1
+            // 
+            lbl1.AutoSize = true;
+            lbl1.Font = new Font("Lucida Sans Unicode", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbl1.Location = new Point(344, 15);
+            lbl1.Name = "lbl1";
+            lbl1.Size = new Size(75, 18);
+            lbl1.TabIndex = 3;
+            lbl1.Text = "Usuario:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Lucida Sans Unicode", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(344, 43);
+            label2.Name = "label2";
+            label2.Size = new Size(64, 18);
+            label2.TabIndex = 4;
+            label2.Text = "Grado:";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Lucida Sans Unicode", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(344, 70);
+            label3.Name = "label3";
+            label3.Size = new Size(72, 18);
+            label3.TabIndex = 5;
+            label3.Text = "Estatus:";
+            // 
+            // lblUserNombre
+            // 
+            lblUserNombre.AutoSize = true;
+            lblUserNombre.Font = new Font("Lucida Sans Unicode", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblUserNombre.Location = new Point(417, 15);
+            lblUserNombre.Name = "lblUserNombre";
+            lblUserNombre.Size = new Size(0, 18);
+            lblUserNombre.TabIndex = 6;
+            // 
+            // lblUserGrado
+            // 
+            lblUserGrado.AutoSize = true;
+            lblUserGrado.Font = new Font("Lucida Sans Unicode", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblUserGrado.Location = new Point(417, 43);
+            lblUserGrado.Name = "lblUserGrado";
+            lblUserGrado.Size = new Size(0, 18);
+            lblUserGrado.TabIndex = 7;
+            // 
+            // lblUserEstatus
+            // 
+            lblUserEstatus.AutoSize = true;
+            lblUserEstatus.Font = new Font("Lucida Sans Unicode", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblUserEstatus.Location = new Point(417, 70);
+            lblUserEstatus.Name = "lblUserEstatus";
+            lblUserEstatus.Size = new Size(0, 18);
+            lblUserEstatus.TabIndex = 8;
             // 
             // ScannQR
             // 
@@ -222,5 +291,11 @@
         private DevExpress.XtraGrid.Columns.GridColumn colMembresiaTitularGradoFamiliar;
         private DevExpress.XtraGrid.Columns.GridColumn colMembresiaTitularEstatus;
         private DevExpress.XtraGrid.Columns.GridColumn colMembresiaFechaBaja;
+        private Label label3;
+        private Label label2;
+        private Label lbl1;
+        private Label lblUserNombre;
+        private Label lblUserEstatus;
+        private Label lblUserGrado;
     }
 }

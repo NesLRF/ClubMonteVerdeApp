@@ -12,6 +12,8 @@ namespace ClubMonteVerde.Repository.Entrada
     public class EntradaContext : DbContext
     {
         public DbSet<Membresia> membresia { get; set; }
+        public DbSet<MembresiaFamiliar> membresiaFamiliar { get; set; }
+        public DbSet<Models.Entrada> entrada { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -62,6 +64,16 @@ namespace ClubMonteVerde.Repository.Entrada
                 .HasOne(s => s.Estatus)
                 .WithMany()
                 .HasForeignKey(s => s.estatus_id);
+
+            modelBuilder.Entity<Models.Entrada>()
+            .HasOne(e => e.Socio)
+            .WithMany()  // Assuming a socio can have multiple entradas
+            .HasForeignKey(e => e.socio_id);
+
+            modelBuilder.Entity<Models.Entrada>()
+                .HasOne(e => e.Familiar)
+                .WithMany()  // Assuming a familiar can have multiple entradas
+                .HasForeignKey(e => e.familiar_id);
         }
 
     }

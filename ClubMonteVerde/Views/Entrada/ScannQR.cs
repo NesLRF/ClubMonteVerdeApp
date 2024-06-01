@@ -75,9 +75,13 @@ namespace ClubMonteVerde.Views.Entrada
             txtScann.Text = string.Empty;
         }
 
-        public void SetData(IList<ShowMembershipData> membresia)
+        public void SetData(IList<ShowMembershipData> membresia, string userNombre, string userGrado, string estatus)
         {
             gridControl1.DataSource = membresia;
+
+            lblUserNombre.Text = userNombre;
+            lblUserGrado.Text = userGrado;
+            lblUserEstatus.Text = estatus;
         }
     }
 }

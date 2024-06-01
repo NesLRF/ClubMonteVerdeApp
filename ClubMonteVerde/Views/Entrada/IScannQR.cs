@@ -12,7 +12,7 @@ namespace ClubMonteVerde.Views.Entrada
         string GetQrValue();
         void resetForm();
 
-        void SetData(IList<ShowMembershipData> membresia);
+        void SetData(IList<ShowMembershipData> membresia, string userNombre, string userGrado, string estatus);
 
         event EventHandler SearchQrValue;
     }

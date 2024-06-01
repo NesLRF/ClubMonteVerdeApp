@@ -38,15 +38,42 @@ namespace ClubMonteVerde.Presenters
 
             var membership = _entradaRepository.GetMembership(qrValue);
 
-            if (membership == null)
+            string userNombre;
+            string userGrado;
+            string userEstatus;
+
+            if (!membership.Any())
             {
-                MessageBox.Show("Error en la verificación, por favor intente de nuevo", "Error de autentificacion de socio", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                (var familiarMembership, string userData) = _entradaRepository.GetFamiliarMembership(qrValue);
+
+                if (!familiarMembership.Any())
+                {
+                    MessageBox.Show("Error en la verificación, por favor intente de nuevo", "Error de autentificacion de socio", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                membership = familiarMembership;
+
+                string[] splitUserData = userData!.Split(",");
+
+                userNombre = splitUserData[0];
+                userGrado = splitUserData[1];
+                userEstatus = splitUserData[2];
+            }
+            else
+            {
+                _entradaRepository.SaveSocioEntrada((int)membership.First().socio_titular_id!);
+
+                var user = membership.First();
+
+                userNombre = user.Titular!.nombres + " " + user.Titular.apellidos;
+                userGrado = user.Titular.grado_familiar!;
+                userEstatus = user.Titular.Estatus!.nombre!;
             }
 
             var membershipFormat = _membershipMapper.GetMembershipMap(membership);
 
-            _view.SetData(membershipFormat);
+            _view.SetData(membershipFormat, userNombre, userGrado, userEstatus);
         }
     }
 }
