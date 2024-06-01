@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Proyectos\\ClubMonteVerde\\ClubMonteVerde\\ClubMonteVerde.csproj": {}
+    "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\ClubMonteVerde.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Proyectos\\ClubMonteVerde\\ClubMonteVerde\\ClubMonteVerde.csproj": {
+    "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\ClubMonteVerde.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Proyectos\\ClubMonteVerde\\ClubMonteVerde\\ClubMonteVerde.csproj",
+        "projectUniqueName": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\ClubMonteVerde.csproj",
         "projectName": "ClubMonteVerde",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Proyectos\\ClubMonteVerde\\ClubMonteVerde\\ClubMonteVerde.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Proyectos\\ClubMonteVerde\\ClubMonteVerde\\obj\\",
+        "projectPath": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\ClubMonteVerde.csproj",
+        "packagesPath": "C:\\Users\\nesto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nesto\\OneDrive\\Escritorio\\Proyectos\\WinForm-projects\\ClubMonteVerdeApp\\ClubMonteVerde\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nesto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -60,7 +60,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
@@ -98,7 +98,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

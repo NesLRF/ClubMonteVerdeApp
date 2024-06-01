@@ -4,6 +4,9 @@
     <Compile Update="Views\Entrada\Access.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Views\Entrada\ScannQR.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Views\MainView\MainView.cs">
       <SubType>Form</SubType>
     </Compile>
