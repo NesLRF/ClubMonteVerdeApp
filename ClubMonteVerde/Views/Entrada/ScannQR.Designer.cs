@@ -28,24 +28,115 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
+            gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            gridControl1 = new DevExpress.XtraGrid.GridControl();
+            showMembershipDataBindingSource = new BindingSource(components);
+            gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            colMembresia = new DevExpress.XtraGrid.Columns.GridColumn();
+            colMembresiaTipo = new DevExpress.XtraGrid.Columns.GridColumn();
+            colMembresiaTitular = new DevExpress.XtraGrid.Columns.GridColumn();
+            colMembresiaTitularTitulo = new DevExpress.XtraGrid.Columns.GridColumn();
+            colMembresiaTitularGradoFamiliar = new DevExpress.XtraGrid.Columns.GridColumn();
+            colMembresiaTitularEstatus = new DevExpress.XtraGrid.Columns.GridColumn();
+            colMembresiaFechaBaja = new DevExpress.XtraGrid.Columns.GridColumn();
             panelTop = new Panel();
-            buttonEdit1 = new DevExpress.XtraEditors.ButtonEdit();
+            btnSearch = new DevExpress.XtraEditors.ButtonEdit();
             lblScann = new Label();
             txtScann = new DevExpress.XtraEditors.TextEdit();
             panelFill = new Panel();
-            gridControl1 = new DevExpress.XtraGrid.GridControl();
-            gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            ((System.ComponentModel.ISupportInitialize)gridView2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)gridControl1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)showMembershipDataBindingSource).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)gridView1).BeginInit();
             panelTop.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)buttonEdit1.Properties).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btnSearch.Properties).BeginInit();
             ((System.ComponentModel.ISupportInitialize)txtScann.Properties).BeginInit();
             panelFill.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)gridControl1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)gridView1).BeginInit();
             SuspendLayout();
+            // 
+            // gridView2
+            // 
+            gridView2.GridControl = gridControl1;
+            gridView2.Name = "gridView2";
+            // 
+            // gridControl1
+            // 
+            gridControl1.DataSource = showMembershipDataBindingSource;
+            gridControl1.Dock = DockStyle.Fill;
+            gridLevelNode1.LevelTemplate = gridView2;
+            gridLevelNode1.RelationName = "Familiares";
+            gridControl1.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] { gridLevelNode1 });
+            gridControl1.Location = new Point(0, 0);
+            gridControl1.MainView = gridView1;
+            gridControl1.Name = "gridControl1";
+            gridControl1.Size = new Size(921, 376);
+            gridControl1.TabIndex = 0;
+            gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridView1, gridView2 });
+            // 
+            // showMembershipDataBindingSource
+            // 
+            showMembershipDataBindingSource.DataSource = typeof(Classes.Membership.ShowMembershipData);
+            // 
+            // gridView1
+            // 
+            gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] { colMembresia, colMembresiaTipo, colMembresiaTitular, colMembresiaTitularTitulo, colMembresiaTitularGradoFamiliar, colMembresiaTitularEstatus, colMembresiaFechaBaja });
+            gridView1.GridControl = gridControl1;
+            gridView1.Name = "gridView1";
+            // 
+            // colMembresia
+            // 
+            colMembresia.FieldName = "Membresia";
+            colMembresia.Name = "colMembresia";
+            colMembresia.Visible = true;
+            colMembresia.VisibleIndex = 0;
+            // 
+            // colMembresiaTipo
+            // 
+            colMembresiaTipo.FieldName = "MembresiaTipo";
+            colMembresiaTipo.Name = "colMembresiaTipo";
+            colMembresiaTipo.Visible = true;
+            colMembresiaTipo.VisibleIndex = 1;
+            // 
+            // colMembresiaTitular
+            // 
+            colMembresiaTitular.FieldName = "MembresiaTitular";
+            colMembresiaTitular.Name = "colMembresiaTitular";
+            colMembresiaTitular.Visible = true;
+            colMembresiaTitular.VisibleIndex = 2;
+            // 
+            // colMembresiaTitularTitulo
+            // 
+            colMembresiaTitularTitulo.FieldName = "MembresiaTitularTitulo";
+            colMembresiaTitularTitulo.Name = "colMembresiaTitularTitulo";
+            colMembresiaTitularTitulo.Visible = true;
+            colMembresiaTitularTitulo.VisibleIndex = 3;
+            // 
+            // colMembresiaTitularGradoFamiliar
+            // 
+            colMembresiaTitularGradoFamiliar.FieldName = "MembresiaTitularGradoFamiliar";
+            colMembresiaTitularGradoFamiliar.Name = "colMembresiaTitularGradoFamiliar";
+            colMembresiaTitularGradoFamiliar.Visible = true;
+            colMembresiaTitularGradoFamiliar.VisibleIndex = 4;
+            // 
+            // colMembresiaTitularEstatus
+            // 
+            colMembresiaTitularEstatus.FieldName = "MembresiaTitularEstatus";
+            colMembresiaTitularEstatus.Name = "colMembresiaTitularEstatus";
+            colMembresiaTitularEstatus.Visible = true;
+            colMembresiaTitularEstatus.VisibleIndex = 5;
+            // 
+            // colMembresiaFechaBaja
+            // 
+            colMembresiaFechaBaja.FieldName = "MembresiaFechaBaja";
+            colMembresiaFechaBaja.Name = "colMembresiaFechaBaja";
+            colMembresiaFechaBaja.Visible = true;
+            colMembresiaFechaBaja.VisibleIndex = 6;
             // 
             // panelTop
             // 
-            panelTop.Controls.Add(buttonEdit1);
+            panelTop.Controls.Add(btnSearch);
             panelTop.Controls.Add(lblScann);
             panelTop.Controls.Add(txtScann);
             panelTop.Dock = DockStyle.Top;
@@ -54,15 +145,15 @@
             panelTop.Size = new Size(921, 100);
             panelTop.TabIndex = 0;
             // 
-            // buttonEdit1
+            // btnSearch
             // 
-            buttonEdit1.EditValue = "Buscar";
-            buttonEdit1.Location = new Point(229, 44);
-            buttonEdit1.Name = "buttonEdit1";
-            buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] { new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph) });
-            buttonEdit1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            buttonEdit1.Size = new Size(74, 20);
-            buttonEdit1.TabIndex = 2;
+            btnSearch.EditValue = "Buscar";
+            btnSearch.Location = new Point(229, 44);
+            btnSearch.Name = "btnSearch";
+            btnSearch.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] { new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph) });
+            btnSearch.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+            btnSearch.Size = new Size(67, 28);
+            btnSearch.TabIndex = 2;
             // 
             // lblScann
             // 
@@ -78,7 +169,7 @@
             // 
             txtScann.Location = new Point(41, 44);
             txtScann.Name = "txtScann";
-            txtScann.Size = new Size(162, 20);
+            txtScann.Size = new Size(162, 28);
             txtScann.TabIndex = 0;
             // 
             // panelFill
@@ -90,21 +181,6 @@
             panelFill.Size = new Size(921, 376);
             panelFill.TabIndex = 1;
             // 
-            // gridControl1
-            // 
-            gridControl1.Dock = DockStyle.Fill;
-            gridControl1.Location = new Point(0, 0);
-            gridControl1.MainView = gridView1;
-            gridControl1.Name = "gridControl1";
-            gridControl1.Size = new Size(921, 376);
-            gridControl1.TabIndex = 0;
-            gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridView1 });
-            // 
-            // gridView1
-            // 
-            gridView1.GridControl = gridControl1;
-            gridView1.Name = "gridView1";
-            // 
             // ScannQR
             // 
             AutoScaleDimensions = new SizeF(6F, 13F);
@@ -115,13 +191,16 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "ScannQR";
             Text = "ScannQR";
+            WindowState = FormWindowState.Maximized;
+            ((System.ComponentModel.ISupportInitialize)gridView2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)gridControl1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)showMembershipDataBindingSource).EndInit();
+            ((System.ComponentModel.ISupportInitialize)gridView1).EndInit();
             panelTop.ResumeLayout(false);
             panelTop.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)buttonEdit1.Properties).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btnSearch.Properties).EndInit();
             ((System.ComponentModel.ISupportInitialize)txtScann.Properties).EndInit();
             panelFill.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)gridControl1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)gridView1).EndInit();
             ResumeLayout(false);
         }
 
@@ -131,8 +210,17 @@
         private Label lblScann;
         private DevExpress.XtraEditors.TextEdit txtScann;
         private Panel panelFill;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit1;
+        private DevExpress.XtraEditors.ButtonEdit btnSearch;
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private BindingSource showMembershipDataBindingSource;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
+        private DevExpress.XtraGrid.Columns.GridColumn colMembresia;
+        private DevExpress.XtraGrid.Columns.GridColumn colMembresiaTipo;
+        private DevExpress.XtraGrid.Columns.GridColumn colMembresiaTitular;
+        private DevExpress.XtraGrid.Columns.GridColumn colMembresiaTitularTitulo;
+        private DevExpress.XtraGrid.Columns.GridColumn colMembresiaTitularGradoFamiliar;
+        private DevExpress.XtraGrid.Columns.GridColumn colMembresiaTitularEstatus;
+        private DevExpress.XtraGrid.Columns.GridColumn colMembresiaFechaBaja;
     }
 }

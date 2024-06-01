@@ -284,7 +284,6 @@ C:\Users\nesto\OneDrive\Escritorio\Proyectos\WinForm-projects\ClubMonteVerdeApp\
 C:\Users\nesto\OneDrive\Escritorio\Proyectos\WinForm-projects\ClubMonteVerdeApp\ClubMonteVerde\bin\Debug\net8.0-windows\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
 C:\Users\nesto\OneDrive\Escritorio\Proyectos\WinForm-projects\ClubMonteVerdeApp\ClubMonteVerde\bin\Debug\net8.0-windows\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll
 C:\Users\nesto\OneDrive\Escritorio\Proyectos\WinForm-projects\ClubMonteVerdeApp\ClubMonteVerde\obj\Debug\net8.0-windows\ClubMonteVerde.csproj.AssemblyReference.cache
-C:\Users\nesto\OneDrive\Escritorio\Proyectos\WinForm-projects\ClubMonteVerdeApp\ClubMonteVerde\obj\Debug\net8.0-windows\ClubMonteVerde.Views.Entrada.Access.resources
 C:\Users\nesto\OneDrive\Escritorio\Proyectos\WinForm-projects\ClubMonteVerdeApp\ClubMonteVerde\obj\Debug\net8.0-windows\ClubMonteVerde.Views.Entrada.ScannQR.resources
 C:\Users\nesto\OneDrive\Escritorio\Proyectos\WinForm-projects\ClubMonteVerdeApp\ClubMonteVerde\obj\Debug\net8.0-windows\ClubMonteVerde.Views.MainView.MainView.resources
 C:\Users\nesto\OneDrive\Escritorio\Proyectos\WinForm-projects\ClubMonteVerdeApp\ClubMonteVerde\obj\Debug\net8.0-windows\ClubMonteVerde.csproj.GenerateResource.cache

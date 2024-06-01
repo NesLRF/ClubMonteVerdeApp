@@ -1,6 +1,8 @@
-﻿using ClubMonteVerde.Models;
+﻿using ClubMonteVerde.Classes.Mappers.Membership;
+using ClubMonteVerde.Models;
 using ClubMonteVerde.Repository.Entrada;
 using ClubMonteVerde.Views.Entrada;
+using ClubMonteVerde.Views.MainView;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,14 +13,18 @@ namespace ClubMonteVerde.Presenters
 {
     public class AccessPresenter
     {
-        public readonly IAccess _view;
+        public readonly IScannQR _view;
+        private readonly IMainView _mainView;
         private readonly EntradaRepository _entradaRepository;
+        private readonly MembershipMapper _membershipMapper;
 
-        public AccessPresenter(IAccess view)
+        public AccessPresenter(IScannQR view, IMainView mainView)
         {
-            _view = view;
+            _view = view ?? throw new ArgumentNullException(nameof(view));
+            _mainView = mainView ?? throw new ArgumentNullException(nameof(mainView));
             _entradaRepository = new EntradaRepository();
-            _view.SearchClient += SearchClient;
+            _membershipMapper = new MembershipMapper();
+            _view.SearchQrValue += SearchClient;
         }
 
         private void SearchClient(object? sender, EventArgs e)
@@ -30,7 +36,7 @@ namespace ClubMonteVerde.Presenters
                 return;
             }
 
-            var membership = _entradaRepository.GetMembership(qrValue)?.First();
+            var membership = _entradaRepository.GetMembership(qrValue);
 
             if (membership == null)
             {
@@ -38,7 +44,9 @@ namespace ClubMonteVerde.Presenters
                 return;
             }
 
-            MessageBox.Show("Hola "+ membership.Titular!.nombres +" "+ membership.Titular.apellidos+ " tu membresia es "+ membership.tipo_membresia);
+            var membershipFormat = _membershipMapper.GetMembershipMap(membership);
+
+            _view.SetData(membershipFormat);
         }
     }
 }

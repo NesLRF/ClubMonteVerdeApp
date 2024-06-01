@@ -25,6 +25,7 @@ namespace ClubMonteVerde.Models
 
         /* Belongs to*/
         public Membresia? Membresia { get; set; }
+        public Estatus? Estatus { get; set; }
 
         /* Belongs to many*/
         public IList<MembresiaPase>? pases { get; set; }

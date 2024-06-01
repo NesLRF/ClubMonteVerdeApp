@@ -19,7 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Classes\" />
     <Folder Include="Resource\image\" />
     <Folder Include="Resource\icon\" />
   </ItemGroup>

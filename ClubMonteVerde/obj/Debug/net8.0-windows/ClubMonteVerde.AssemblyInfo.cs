@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClubMonteVerde")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72a00fba924b0f27f0f88aba9e4669aeecfda403")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ca9a25a8973bcd87bf101617828e884daacf6bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClubMonteVerde")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClubMonteVerde")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

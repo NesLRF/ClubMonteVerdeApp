@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClubMonteVerde.Classes.Membership;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace ClubMonteVerde.Views.Entrada
         string GetQrValue();
         void resetForm();
 
-        //void SetData(IList<Ordenes> orden);
+        void SetData(IList<ShowMembershipData> membresia);
 
         event EventHandler SearchQrValue;
     }

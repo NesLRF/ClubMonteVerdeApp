@@ -56,6 +56,12 @@ namespace ClubMonteVerde.Repository.Entrada
                 .HasOne(s => s.Estatus)
                 .WithMany()
                 .HasForeignKey(s => s.estatus_id);
+
+
+            modelBuilder.Entity<MembresiaFamiliar>()
+                .HasOne(s => s.Estatus)
+                .WithMany()
+                .HasForeignKey(s => s.estatus_id);
         }
 
     }

@@ -21,7 +21,12 @@ namespace ClubMonteVerde.Repository.Entrada
                                  where membership.numero_membresia_principal == qrValue
                                  select membership;
 
-                    currentMembership = search.Include(m => m.Titular).ToList();
+                    currentMembership = search
+                                        .Include(m => m.Titular)
+                                        .ThenInclude(p => p.Estatus)
+                                        .Include(m => m.Familiares)
+                                        .ThenInclude(p => p.Estatus)
+                                        .ToList();
 
                     return currentMembership;
                 }

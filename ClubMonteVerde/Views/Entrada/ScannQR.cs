@@ -1,4 +1,6 @@
-﻿using DevExpress.XtraEditors;
+﻿using ClubMonteVerde.Classes.Membership;
+using DevExpress.XtraBars.Docking2010.Customization;
+using DevExpress.XtraEditors;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,9 +21,19 @@ namespace ClubMonteVerde.Views.Entrada
             AssociateEvent();
         }
 
+        public event EventHandler SearchQrValue;
+
         private void AssociateEvent()
         {
-            //btn
+            btnSearch.Click += delegate { SearchQrValue?.Invoke(this, EventArgs.Empty); };
+            txtScann.KeyDown += (s, e) =>
+            {
+                if (e.KeyCode == Keys.Enter)
+                {
+                    SearchQrValue?.Invoke(this, EventArgs.Empty);
+                    e.Handled = true;
+                }
+            };
         }
 
         public static ScannQR? instance;
@@ -53,8 +65,6 @@ namespace ClubMonteVerde.Views.Entrada
             return instance;
         }
 
-        public event EventHandler SearchQrValue;
-
         public string GetQrValue()
         {
             return txtScann.Text;
@@ -63,6 +73,11 @@ namespace ClubMonteVerde.Views.Entrada
         public void resetForm()
         {
             txtScann.Text = string.Empty;
+        }
+
+        public void SetData(IList<ShowMembershipData> membresia)
+        {
+            gridControl1.DataSource = membresia;
         }
     }
 }

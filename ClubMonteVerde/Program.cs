@@ -1,5 +1,6 @@
 using ClubMonteVerde.Presenters;
 using ClubMonteVerde.Views.Entrada;
+using ClubMonteVerde.Views.MainView;
 
 namespace ClubMonteVerde
 {
@@ -14,8 +15,8 @@ namespace ClubMonteVerde
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            IAccess view = new Access();
-            new AccessPresenter(view);
+            IMainView view = new MainView();
+            new MainPresenter(view);
             Application.Run((Form)view);
         }
     }
